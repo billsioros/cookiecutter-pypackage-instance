@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Q&A
-    url: https://github.com/billsioros/cookiecutter-pypackage-instance/discussions/categories/q-a
-    about: Please ask and answer questions here.
