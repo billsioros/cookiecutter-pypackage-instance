@@ -10,7 +10,7 @@ readme = "README.md"
 authors = ["Vasilis Sioros <billsioros97@gmail.com>"]
 license = "MIT"
 homepage = "https://billsioros.github.io/cookiecutter-pypackage-instance"
-repository = "https://github.com/billsioros/cookiecutter-pypackage-instance.git"
+repository = "https://github.com/billsioros/cookiecutter-pypackage-instance"
 keywords = []
 classifiers = [
     "Programming Language :: Python",
@@ -23,8 +23,8 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/billsioros/cookiecutter-pypackage-instance.git/issues"
-"Changelog" = "https://github.com/billsioros/cookiecutter-pypackage-instance.git/releases"
+"Bug Tracker" = "https://github.com/billsioros/cookiecutter-pypackage-instance/issues"
+"Changelog" = "https://github.com/billsioros/cookiecutter-pypackage-instance/releases"
 
 [tool.poetry.dependencies]
 python = "^3.7"
