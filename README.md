@@ -13,15 +13,15 @@
       alt="PyPI"
     />
   </a>
-  <a href="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/ci.yml">
+  <a href="https://github.com/billsioros/cookiecutter-pypackage-instance.git/actions/workflows/ci.yml">
     <img
-      src="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/ci.yml/badge.svg"
+      src="https://github.com/billsioros/cookiecutter-pypackage-instance.git/actions/workflows/ci.yml/badge.svg"
       alt="CI"
     />
   </a>
-  <a href="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/cd.yml">
+  <a href="https://github.com/billsioros/cookiecutter-pypackage-instance.git/actions/workflows/cd.yml">
     <img
-      src="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/cd.yml/badge.svg"
+      src="https://github.com/billsioros/cookiecutter-pypackage-instance.git/actions/workflows/cd.yml/badge.svg"
       alt="CD"
     />
   </a>
