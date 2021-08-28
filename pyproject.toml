@@ -4,13 +4,13 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "cookiecutter-pypackage-instance"
-version = "0.1.0"
+version = "0.0.0"
 description = "🐍 An awesome python package by the name `Cookiecutter Pypackage Instance`"
 readme = "README.md"
 authors = ["Vasilis Sioros <billsioros97@gmail.com>"]
 license = "MIT"
 homepage = "https://billsioros.github.io/cookiecutter-pypackage-instance"
-repository = "https://github.com/billsioros/cookiecutter-pypackage-instance"
+repository = "https://github.com/billsioros/cookiecutter-pypackage-instance.git"
 keywords = []
 classifiers = [
     "Programming Language :: Python",
@@ -23,8 +23,8 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/billsioros/cookiecutter-pypackage-instance/issues"
-"Changelog" = "https://github.com/billsioros/cookiecutter-pypackage-instance/releases"
+"Bug Tracker" = "https://github.com/billsioros/cookiecutter-pypackage-instance.git/issues"
+"Changelog" = "https://github.com/billsioros/cookiecutter-pypackage-instance.git/releases"
 
 [tool.poetry.dependencies]
 python = "^3.7"
