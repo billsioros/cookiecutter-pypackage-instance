@@ -58,7 +58,7 @@
       src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat&logo=renovatebot"
       alt="Renovate - Enabled">
   </a>
-  <a href="https://app.renovatebot.com/dashboard#github/billsioros/cookiecutter-pypackage-instance">
+  <a href="https://www.buymeacoffee.com/billsioros">
     <img
       src="https://img.shields.io/badge/Buy%20me%20a-coffee-FFDD00.svg?style=flat&logo=buymeacoffee"
       alt="Buy me a coffee">
