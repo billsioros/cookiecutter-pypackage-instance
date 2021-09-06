@@ -1,14 +1,16 @@
-site_name: cookiecutter-pypackage-instance
+site_name: Cookiecutter Pypackage Instance
 site_description: "🐍 An awesome python package by the name `Cookiecutter Pypackage Instance`"
 site_url: "https://billsioros.github.io/cookiecutter-pypackage-instance/"
 repo_url: "https://github.com/billsioros/cookiecutter-pypackage-instance"
 edit_uri: "edit/master/docs/"
 repo_name: "billsioros/cookiecutter-pypackage-instance"
 copyright: |
-  Copyright &copy; 2021 <a href="https://github.com/billsioros"  target="_blank" rel="noopener">Vasilis Sioros</a>
+  Copyright &copy; 2021-2021 <a href="https://github.com/billsioros" target="_blank" rel="noopener">Vasilis Sioros</a>
 
 nav:
   - Overview: index.md
+  - Code Reference:
+    - Cookiecutter Pypackage Instance: src/cookiecutter_pypackage_instance.md
   - Contributing:
     - Contributing Guidelines: CONTRIBUTING.md
     - Code Of Conduct: CODE_OF_CONDUCT.md

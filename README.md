@@ -36,7 +36,7 @@
       src="https://codecov.io/gh/billsioros/cookiecutter-pypackage-instance/branch/master/graph/badge.svg?token=coLOL0j6Ap"
       alt="Test Coverage"/>
   </a>
-  <a href="https://opensource.org/licenses/MIT">
+  <a href="https://opensource.org/licenses/mit">
     <img
       src="https://img.shields.io/pypi/l/cookiecutter-pypackage-instance"
       alt="PyPI - License"
@@ -53,7 +53,16 @@
       src="https://img.shields.io/badge/cookiecutter-template-D4AA00.svg?style=flat&logo=cookiecutter"
       alt="Cookiecutter Template">
   </a>
-
+  <a href="https://app.renovatebot.com/dashboard#github/billsioros/cookiecutter-pypackage-instance">
+    <img
+      src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat&logo=renovatebot"
+      alt="Renovate - Enabled">
+  </a>
+  <a href="https://app.renovatebot.com/dashboard#github/billsioros/cookiecutter-pypackage-instance">
+    <img
+      src="https://img.shields.io/badge/Buy%20me%20a-coffee-FFDD00.svg?style=flat&logo=buymeacoffee"
+      alt="Buy me a coffee">
+  </a>
 </p>
 
 ## Example Usage
