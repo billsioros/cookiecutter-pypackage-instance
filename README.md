@@ -13,6 +13,7 @@
       alt="PyPI"
     />
   </a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance.svg?type=shield"/></a>
   <a href="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/ci.yml">
     <img
       src="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/ci.yml/badge.svg"
@@ -64,6 +65,9 @@
       alt="Buy me a coffee">
   </a>
 </p>
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance?ref=badge_large)
 
 ## Example Usage
 
