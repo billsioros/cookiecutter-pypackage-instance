@@ -1,4 +1,4 @@
-"""🐍 An awesome python package by the name `Cookiecutter Pypackage Instance`."""
+"""🐍 An awesome python package by the name Cookiecutter Pypackage Instance."""
 
 
 def factorial(integer: int) -> int:
