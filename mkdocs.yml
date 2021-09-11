@@ -1,5 +1,5 @@
 site_name: Cookiecutter Pypackage Instance
-site_description: "🐍 An awesome python package by the name `Cookiecutter Pypackage Instance`"
+site_description: "🐍 An awesome python package by the name Cookiecutter Pypackage Instance"
 site_url: "https://billsioros.github.io/cookiecutter-pypackage-instance/"
 repo_url: "https://github.com/billsioros/cookiecutter-pypackage-instance"
 edit_uri: "edit/master/docs/"

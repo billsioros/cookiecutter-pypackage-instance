@@ -5,7 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "cookiecutter-pypackage-instance"
 version = "0.1.3"
-description = "🐍 An awesome python package by the name `Cookiecutter Pypackage Instance`"
+description = "🐍 An awesome python package by the name Cookiecutter Pypackage Instance"
 readme = "README.md"
 authors = ["Vasilis Sioros <billsioros97@gmail.com>"]
 license = "MIT"
@@ -31,7 +31,6 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 python-semantic-release = "^7.15.3"
-flake8 = "^3.9.2"
 flakehell = "^0.9.0"
 wemake-python-styleguide = "^0.15.2"
 isort = "^5.9.3"

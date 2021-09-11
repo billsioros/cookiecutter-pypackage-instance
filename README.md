@@ -1,4 +1,6 @@
-<h1 align="center">🐍 Cookiecutter Pypackage Instance</h1>
+<h1 align="center">Cookiecutter Pypackage Instance</h1>
+
+<p align="center"><em>🐍 An awesome python package by the name Cookiecutter Pypackage Instance</em></p>
 
 <p align="center">
   <a href="https://www.python.org/">
@@ -71,35 +73,33 @@
   </a>
 </p>
 
-## Example Usage
+## :bulb: Example
 
 ```python
 >>> from cookiecutter_pypackage_instance import cookiecutter_pypackage_instance
 ```
 
-## Features
+## :rocket: Features
 
 - TODO
 
-## Documentation
+## :book: Documentation
 
 The project's documentation can be found [here](https://billsioros.github.io/cookiecutter-pypackage-instance/).
 
-## Installation
+## :cd: Installation
 
 ```bash
-pip install cookiecutter-pypackage-instance
+pip install cookiecutter_pypackage_instance
 ```
 
-## Supporting the project
+## :heart: Support the project
 
 Feel free to [**Buy me a coffee! ☕**](https://www.buymeacoffee.com/billsioros).
 
-## Contributing
+## :sparkles: Contributing
 
 If you would like to contribute to the project, please go through the [Contributing Guidelines](https://billsioros.github.io/cookiecutter-pypackage-instance/latest/CONTRIBUTING/) first.
-
-## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -113,6 +113,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-## Credits
+## :bookmark_tabs: Citation
 
-This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [billsioros/cookiecutter-pypackage](https://github.com/billsioros/cookiecutter-pypackage) cookiecutter template.
+```bibtex
+@misc{cookiecutter-pypackage-instance,
+  author = {Vasilis Sioros},
+  title = {🐍 An awesome python package by the name Cookiecutter Pypackage Instance},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/billsioros/cookiecutter-pypackage-instance}}
+}
+```
+
+## :label: Credits
+
+This project was generated with [`billsioros/cookiecutter-pypackage`](https://github.com/billsioros/cookiecutter-pypackage) cookiecutter template.
