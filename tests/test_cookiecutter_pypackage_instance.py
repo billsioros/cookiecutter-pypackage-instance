@@ -4,4 +4,6 @@ from cookiecutter_pypackage_instance.cookiecutter_pypackage_instance import fact
 
 
 def test_cookiecutter_pypackage_instance():
+    assert factorial(0) == 1
+    assert factorial(1) == 1
     assert factorial(5) == 120
