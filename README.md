@@ -119,7 +119,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 @misc{cookiecutter-pypackage-instance,
   author = {Vasilis Sioros},
   title = {🐍 An awesome python package by the name Cookiecutter Pypackage Instance},
-  year = {2021},
+  year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/billsioros/cookiecutter-pypackage-instance}}
