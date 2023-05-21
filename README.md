@@ -73,25 +73,34 @@
   </a>
 </p>
 
-## :bulb: Example
-
-```python
->>> from cookiecutter_pypackage_instance import cookiecutter_pypackage_instance
-```
-
-## :rocket: Features
-
-- TODO
-
-## :book: Documentation
-
-The project's documentation can be found [here](https://billsioros.github.io/cookiecutter-pypackage-instance/).
-
 ## :cd: Installation
 
 ```bash
 pip install cookiecutter-pypackage-instance
 ```
+
+In order to locally set up the project please follow the instructions below:
+
+```shell
+# Set up the GitHub repository
+git init
+git config --local user.name Vasilis Sioros
+git config --local user.email billsioros97@gmail.com
+git add .
+git commit -m "feat: initial commit"
+git remote add origin https://github.com/billsioros/cookiecutter-pypackage-instance
+
+# Create a virtual environment using poetry and install the required dependencies
+poetry shell
+poetry install
+
+# Install pre-commit hooks
+pre-commit install --install-hooks
+```
+
+## :book: Documentation
+
+The project's documentation can be found [here](https://billsioros.github.io/cookiecutter-pypackage-instance/).
 
 ## :heart: Support the project
 
@@ -100,31 +109,6 @@ Feel free to [**Buy me a coffee! ☕**](https://www.buymeacoffee.com/billsioros)
 ## :sparkles: Contributing
 
 If you would like to contribute to the project, please go through the [Contributing Guidelines](https://billsioros.github.io/cookiecutter-pypackage-instance/latest/CONTRIBUTING/) first.
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-## :bookmark_tabs: Citation
-
-```bibtex
-@misc{cookiecutter-pypackage-instance,
-  author = {Vasilis Sioros},
-  title = {🐍 An awesome python package by the name Cookiecutter Pypackage Instance},
-  year = {2022},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/billsioros/cookiecutter-pypackage-instance}}
-}
-```
 
 ## :label: Credits
 
