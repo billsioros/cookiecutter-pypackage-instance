@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "cookiecutter-pypackage-instance"
-version = "1.0.0"
+version = "1.0.1"
 description = "🐍 An awesome python package by the name Cookiecutter Pypackage Instance"
 readme = "README.md"
 authors = ["Vasilis Sioros <billsioros97@gmail.com>"]
