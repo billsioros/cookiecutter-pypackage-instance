@@ -3,7 +3,7 @@ description: Did you find a bug?
 title: "🐞 "
 labels: [":bug: bug"]
 assignees:
-  - {? {cookiecutter.github_user: ''} : ''}
+  - billsioros
 body:
   - type: textarea
     id: what-happened
