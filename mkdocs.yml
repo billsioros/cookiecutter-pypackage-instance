@@ -6,17 +6,15 @@ edit_uri: "edit/master/docs/"
 repo_name: "billsioros/cookiecutter-pypackage-instance"
 copyright: |
   Copyright &copy; 2023-2023 <a href="https://github.com/billsioros" target="_blank" rel="noopener">Vasilis Sioros</a>
-
 nav:
   - Overview: index.md
   - Code Reference:
-    - Cookiecutter Pypackage Instance: src/cookiecutter_pypackage_instance.md
+      - Cookiecutter Pypackage Instance: src/cookiecutter_pypackage_instance.md
   - Contributing:
-    - Contributing Guidelines: CONTRIBUTING.md
-    - Code Of Conduct: CODE_OF_CONDUCT.md
+      - Contributing Guidelines: CONTRIBUTING.md
+      - Code Of Conduct: CODE_OF_CONDUCT.md
   - Changelog: CHANGELOG.md
   - License: LICENSE.md
-
 theme:
   name: material
   features:
@@ -57,7 +55,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
 plugins:
   - search
   - mkdocstrings:
@@ -78,7 +75,6 @@ plugins:
             show_submodules: no
   - minify:
       minify_html: true
-
 markdown_extensions:
   - admonition
   - pymdownx.emoji
@@ -93,7 +89,6 @@ markdown_extensions:
   - toc:
       permalink: ¤
   - mdx_truly_sane_lists
-
 extra:
   social:
     - icon: fontawesome/brands/github
