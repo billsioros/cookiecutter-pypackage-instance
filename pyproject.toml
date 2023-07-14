@@ -95,25 +95,6 @@ mdx-truly-sane-lists = "*"
 mike = "*"
 ruff = "*"
 
-[tool.semantic_release]
-version_toml = "pyproject.toml:tool.poetry.version"
-changelog_components = "semantic_release.changelog.changelog_headers,semantic_release.changelog.compare_url"
-build_command = "python -m pip install poetry && poetry build"
-
-[tool.vulture]
-min_confidence = 95
-paths = ["src/cookiecutter_pypackage_instance", "tests"]
-
-[tool.poe.tasks]
-clean = { cmd = "rm -rf ./**/__pycache__ dist site .pytest_cache .mypy_cache .coverage", help = "Clean up any auxiliary files" }
-format = { shell = "poetry run isort .; poetry run black .", help = "Format your codebase" }
-hooks = { cmd = "poetry run pre-commit run --all-files", help = "Run all pre-commit hooks" }
-test = { cmd = "poetry run pytest --cov=cookiecutter_pypackage_instance", help = "Run the test suite and produce a coverage report" }
-type-check = { cmd = "poetry run mypy", help = "Run static type checking on your codebase" }
-lint = { cmd = "poetry run ruff check src", help = "Lint your code for errors" }
-docs = { shell = "python -c 'import webbrowser; webbrowser.open(\"http://127.0.0.1:8000\")'; poetry run mkdocs serve", help = "Build and serve the documentation" }
-export = { cmd = "poetry export --without-hashes --dev -o requirements.txt" }
-
 [tool.ruff]
 select = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
 ignore = []
@@ -160,6 +141,25 @@ convention = "google"
 
 [tool.ruff.flake8-quotes]
 docstring-quotes = "double"
+
+[tool.semantic_release]
+version_toml = "pyproject.toml:tool.poetry.version"
+changelog_components = "semantic_release.changelog.changelog_headers,semantic_release.changelog.compare_url"
+build_command = "python -m pip install poetry && poetry build"
+
+[tool.vulture]
+min_confidence = 95
+paths = ["src/cookiecutter_pypackage_instance", "tests"]
+
+[tool.poe.tasks]
+clean = { cmd = "rm -rf ./**/__pycache__ dist site .pytest_cache .mypy_cache .coverage", help = "Clean up any auxiliary files" }
+format = { shell = "poetry run isort .; poetry run black .", help = "Format your codebase" }
+hooks = { cmd = "poetry run pre-commit run --all-files", help = "Run all pre-commit hooks" }
+test = { cmd = "poetry run pytest --cov=cookiecutter_pypackage_instance", help = "Run the test suite and produce a coverage report" }
+type-check = { cmd = "poetry run mypy", help = "Run static type checking on your codebase" }
+lint = { cmd = "poetry run ruff check src", help = "Lint your code for errors" }
+docs = { shell = "python -c 'import webbrowser; webbrowser.open(\"http://127.0.0.1:8000\")'; poetry run mkdocs serve", help = "Build and serve the documentation" }
+export = { cmd = "poetry export --without-hashes --dev -o requirements.txt" }
 
 [tool.docformatter]
 black = true
