@@ -58,8 +58,6 @@ theme:
 plugins:
   - search
   - mkdocstrings:
-      watch:
-        - src/cookiecutter-pypackage-instance
       default_handler: python
       handlers:
         python:
@@ -89,6 +87,8 @@ markdown_extensions:
   - toc:
       permalink: ¤
   - mdx_truly_sane_lists
+watch:
+  - src/cookiecutter-pypackage-instance
 extra:
   social:
     - icon: fontawesome/brands/github
