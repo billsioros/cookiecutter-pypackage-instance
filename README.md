@@ -65,10 +65,10 @@
       src="https://img.shields.io/badge/Buy%20me%20a-coffee-FFDD00.svg?style=flat&logo=buymeacoffee"
       alt="Buy me a coffee">
   </a>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance?ref=badge_shield">
+  <a href="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/dependency_review.yml">
     <img
-      src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbillsioros%2Fcookiecutter-pypackage-instance.svg?type=shield"
-      alt="FOSSA Status"
+      src="https://github.com/billsioros/cookiecutter-pypackage-instance/actions/workflows/dependency_review.yml/badge.svg"
+      alt="Dependency Review"
     />
   </a>
 </p>
