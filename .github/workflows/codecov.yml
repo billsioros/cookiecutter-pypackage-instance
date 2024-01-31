@@ -33,4 +33,4 @@ jobs:
         run: |
           poetry run python -m pytest -p no:sugar --cov=./src/cookiecutter_pypackage_instance --cov-report=xml
       - name: Upload coverage report
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
